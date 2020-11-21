@@ -1,0 +1,13 @@
+title: grotesqoe
+description: a grotesqoe blog
+url: https://grotesqoe.github.io
+
+author:
+  name: grotesqoe
+  email: grotesqoe@gmail.com
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
