@@ -20,10 +20,10 @@
     <header class="navbar border-bottom">
       <a href="{{ site.url }}" class="navbar-brand text-dark">{{ site.title }}</a>
     </header>
-    <main class="container">
+    <main class="container my-5">
       {{ content }}
     </main>
-    <footer class="container">
+    <footer class="container py-3 border-top">
       <span>&copy;</span><time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
     </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
